@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="CCQuizMaker" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^c:\\netProject\\FInalProject\\FInalProject\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^c:\\netProject\\FInalProject\\FInalProject\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:x0maym990s.database.windows.net,1433;Initial Catalog=CCQuizMaker_db;User ID=CCQuizDB@x0maym990s;Password=Abcd_1234" tags="">
+    <parameterEntry kind="XmlFile" scope="c:\\netProject\\FInalProject\\FInalProject\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ProjectConnection-Web.config Connection String" description="ProjectConnection Connection String used in web.config by the application to access the database." value="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\CCDBQuizSurveyDB.mdf;Initial Catalog=CCDBQuizSurveyDB;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\netProject\\FInalProject\\FInalProject\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProjectConnection']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection1-Web.config Connection String" description="DefaultConnection1 Connection String used in web.config by the application to access the database." value="Data Source=INSAN\SQLEXPRESS;Database=CCQSProjectDB;Trusted_Connection=True;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\netProject\\FInalProject\\FInalProject\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection1']/@connectionString" />
+  </parameter>
+</parameters>
